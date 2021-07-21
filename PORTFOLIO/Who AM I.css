@@ -1,0 +1,43 @@
+html{
+    background-color: black;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.box1{
+    
+    color: gold;
+   text-align: center;
+   padding: 200px 200px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1:first-child{
+    padding-bottom: 10px;
+}
+
+span{
+    color: red;
+}
+
+button{
+    border: 2px solid black;
+   color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+   cursor: pointer;
+    background-color: #f44336;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}

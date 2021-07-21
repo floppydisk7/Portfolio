@@ -1,0 +1,61 @@
+
+html{
+    background-color: gray;
+    
+}
+    body{
+    background-image:url(contact.jpg);
+    background-repeat: repeat-x;
+    margin: 0 auto;
+    
+    
+}
+
+.container{
+    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    
+}
+
+.contact{
+    padding-bottom: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form {
+    padding: 50px 50px;
+    font-size: 24px;
+}
+
+#name, #email, #message, #submit{
+    margin-top: 20px;
+}
+
+#submit{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.question{
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 28px;
+    color:red;
+}
+
+section{
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 26px;
+    color: white; 
+}
+
+#message{
+    
+}

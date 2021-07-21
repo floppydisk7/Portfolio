@@ -1,0 +1,51 @@
+html{
+    background-color: black;
+    
+}
+
+body{
+    width: 960px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.container{
+    margin-top: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ p{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.box1, .box2, .box3 {
+    padding:20px;
+
+}
+
+h5{
+    text-decoration: underline;
+    text-align: left;
+}
+
+h3{
+    text-align: left;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
